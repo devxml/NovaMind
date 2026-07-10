@@ -10,12 +10,6 @@
 
 NovaMind is a production-oriented AI assistant platform that combines a FastAPI backend, LangGraph-based agent orchestration, vector search, memory, and a modern React frontend. It supports secure authentication, multi-tenant data isolation, real-time chat streaming, and voice interaction through LiveKit.
 
-## 🎬 Demo
-
-A short demo is available here:
-
-https://github.com/user-attachments/assets/25adf403-6c66-4894-9f0e-27367787273c
-
 ## ✨ Features
 
 - Secure authentication with JWT-based access control and user registration
