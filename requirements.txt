@@ -1,0 +1,64 @@
+# =========================
+# Core dependencies
+# =========================
+fastapi==0.115.12
+uvicorn==0.34.2
+python-jose[cryptography]==3.5.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.18
+pydantic==2.11.5
+pydantic-settings==2.9.1
+python-dotenv==1.1.0
+
+# =========================
+# Database
+# =========================
+sqlalchemy==2.0.41
+alembic==1.16.2
+aiosqlite==0.21.0
+
+# =========================
+# AI / LangChain
+# =========================
+langchain==0.3.26
+langchain-core==0.3.68
+langchain-google-genai>=2.1.8
+langgraph==0.3.2
+langchain-qdrant==0.2.0
+qdrant-client==1.18.0
+
+# =========================
+# Voice Agent
+# =========================
+livekit-agents[deepgram,google,cartesia,silero,turn-detector]==1.1.1
+livekit-plugins-noise-cancellation==0.2.4
+livekit-api==1.0.2
+
+# =========================
+# ML
+# =========================
+torch==2.7.1
+
+# =========================
+# MCP
+# =========================
+fastmcp==2.3.0
+langsmith==0.3.45
+langchain-mcp-adapters==0.1.7
+
+# =========================
+# Search
+# =========================
+tavily-python==0.7.8
+firecrawl-py==2.9.0
+
+# =========================
+# Memory
+# =========================
+mem0ai>=0.1.107
+
+# =========================
+# Google Gemini SDK
+# =========================
+google-genai>=1.24.0
